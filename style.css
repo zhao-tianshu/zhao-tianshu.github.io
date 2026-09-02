@@ -1,8 +1,8 @@
 :root { --ui-mono: Consolas, "SFMono-Regular", "Liberation Mono", Menlo, monospace; }
 * { box-sizing: border-box; }
 body { margin: 0; background: #fff; color: #333; font: 15px/1.75 "Helvetica Neue", "Noto Sans SC", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Microsoft YaHei", Arial, sans-serif; font-kerning: normal; overflow-wrap: break-word; }
-a { color: #246fe5; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: #333; text-decoration: none; }
+a:hover { text-decoration: underline; text-decoration-color: #999; text-underline-offset: 3px; }
 main { width: min(100% - 36px, 640px); margin: 0 auto; padding: 56px 0 40px; }
 .site-nav { display: flex; gap: 18px; margin-bottom: 38px; font: 13px/1.5 var(--ui-mono); letter-spacing: -0.01em; }
 .site-nav a { color: #777; }
@@ -25,6 +25,7 @@ footer { display: flex; gap: 20px; padding-top: 18px; border-top: 1px solid #e6e
 .article header { margin-bottom: 34px; }
 .article header h1 { margin-bottom: 5px; }
 .article p, .article blockquote { margin: 0 0 22px; }
+.article p a, .article blockquote a { text-decoration: underline; text-decoration-color: #bbb; text-underline-offset: 3px; }
 .article h2 { margin: 34px 0 12px; font-size: 19px; }
 .article blockquote { padding-left: 16px; border-left: 2px solid #ddd; color: #666; }
 .article img { display: block; max-width: 100%; height: auto; margin: 0 auto 22px; border-radius: 3px; }
